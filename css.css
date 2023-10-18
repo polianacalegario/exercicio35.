@@ -1,0 +1,99 @@
+/* Estilos gerais */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Estilo do cabeçalho */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/* Estilo do post do blog */
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-post h2 {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.blog-post p {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+
+    h4 {
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+}
+
+/* Rodapé */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
